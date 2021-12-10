@@ -22,7 +22,7 @@ theme:string="";
   constructor(private fb: FormBuilder,
     private servicioSeguridad: SeguridadService,
     private router: Router) {
-      this.siteKey="6LePeYUdAAAAAFvhV7ANP1GpEvqxGd7ac8_udJEh";
+      this.siteKey="6LdjdYkdAAAAAMIXJAdokj9pHt1am2GTSu1ZTFTI";
       this.theme="Dark";
      }
 
