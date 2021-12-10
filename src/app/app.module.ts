@@ -10,7 +10,7 @@ import { ErrorComponent } from './plantilla/error/error.component';
 import{HttpClientModule} from '@angular/common/http';
 import { NgxCaptchaModule } from 'ngx-captcha';
 import { ReactiveFormsModule } from '@angular/forms';
-
+declare const M: any;
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,5 +30,6 @@ import { ReactiveFormsModule } from '@angular/forms';
   bootstrap: [AppComponent]
 })
 export class AppModule { 
+ 
   
 }
